@@ -1,0 +1,44 @@
+
+ ul{
+    list-style-type: none;
+    text-align: right;
+ }
+
+
+ li{
+    display: inline;
+    text-align: center;
+    margin: 0 200px 0 0;
+    background-color: rgb(192, 192, 212);
+ }
+
+h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: aquamarine;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+.barra{
+    background-color: rgb(130, 223, 218);
+    height: 100px;
+    border-radius: 10px;
+}
+
+.logot{
+    height: 100px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -2.6%;   
+}
+
+#titulo{
+    font-size: 60px;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration-color: aliceblue;
+    background-color: aqua;
+}
