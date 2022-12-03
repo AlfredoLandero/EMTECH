@@ -1,0 +1,80 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+  } 
+ 
+
+ ul{
+    list-style-type: none;  
+ }
+
+ li a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .lista{
+    display: flex; /*pone de manera orizontal una lista y lo hace responsive*/
+    gap: 5rem; /*da espacio entre cada elemento de la lista*/
+ }
+
+
+h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: aquamarine;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+.barra{
+    position: sticky;
+    top: 1%;
+    background-color: rgba(4, 78, 80, 1);
+    border-radius: 10px;
+}
+
+.logot{
+    height: 5rem;
+    border-radius: 5px;  
+}
+
+#titulo{
+    font-size: 60px;
+    font-family: 'Rubik Microbe', cursive;
+    text-decoration-color: aliceblue;
+    background-color: aqua;
+    text-align: center;
+}
+
+.ser{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    margin-left: 2rem;
+}
+
+.descripcion img{
+    height: 10rem;
+    margin-left: 5rem;
+}
+
+.slogan{
+    display: grid;
+    grid-template-columns: 35rem 40rem;
+}
+
+.p1{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 5rem;
+}
