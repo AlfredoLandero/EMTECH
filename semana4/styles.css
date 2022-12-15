@@ -1,0 +1,150 @@
+header nav {
+  background-color: rgb(4, 78, 80);
+  border-radius: 1rem;
+}
+header nav .barra {
+  position: sticky;
+}
+header nav .container-fluid .navbar-brand .logo {
+  height: 5rem;
+  border-radius: 5px;
+}
+header nav .container-fluid .texto .textob {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+}
+header nav .container-fluid .texto ul, header nav .container-fluid .texto .texto {
+  gap: 6rem;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  header nav .container-fluid .texto {
+    gap: 1rem;
+  }
+  header nav .container-fluid .texto .textob {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1rem;
+  }
+  header nav .container-fluid .texto ul, header nav .container-fluid .texto .texto {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+  header nav .container-fluid .texto {
+    gap: 2rem;
+  }
+  header nav .container-fluid .texto .textob {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 2rem;
+  }
+  header nav .container-fluid .texto ul, header nav .container-fluid .texto .texto {
+    gap: 2rem;
+  }
+}
+main div #titulo {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(18, 155, 160);
+  text-align: center;
+}
+main .slogan {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .slogan .islogan {
+  width: 100%;
+}
+main .slogan .p1 {
+  font-size: 160%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+main .cont_mv .pr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10%;
+}
+main .cont_mv .pr .imision {
+  width: 50%;
+  border-radius: 2%;
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  main div #titulo {
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(18, 155, 160);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+  main div #titulo {
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(18, 155, 160);
+    text-align: center;
+  }
+  main .slogan {
+    display: grid;
+    grid-template-columns: 30% 50%;
+  }
+  main .slogan .islogan {
+    width: 100%;
+  }
+  main .slogan .p1 {
+    font-size: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  main .slogan {
+    display: grid;
+    grid-template-columns: 30% 50%;
+  }
+  main .slogan .islogan {
+    width: 100%;
+  }
+  main .slogan .p1 {
+    font-size: 80%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+main section .ser {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main section .servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  margin-left: 10%;
+}
+main section .descripcion img {
+  height: 10rem;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  main section .servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  main section .servicios div .ims {
+    width: 14rem;
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+  main section .servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

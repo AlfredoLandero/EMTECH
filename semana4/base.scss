@@ -1,0 +1,52 @@
+@import "header";
+@import "Quienes";
+
+main{
+    section{
+        .ser{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+        }
+        
+        .servicios{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10%;
+            margin-left: 10%;
+        }
+        
+        .descripcion img{
+            height: 10rem;
+            margin-left: 5%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px)  {
+
+    main{
+        section{
+            .servicios{
+                display: flex;
+                flex-direction: column;
+                div{
+                    .ims{
+                        width: 14rem;
+                        height: 9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px)  {
+
+    main{
+        section{
+            .servicios{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
