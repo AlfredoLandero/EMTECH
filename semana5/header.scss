@@ -1,0 +1,69 @@
+@import "_mixins";
+
+header{
+    nav{
+        .barra{
+            position: sticky;
+        }
+        @include estilo;
+        .container-fluid{
+                .navbar-brand{
+                    .logo{
+                        height: 5rem;
+                        border-radius: 5px;  
+                    }
+                }
+                .texto{
+                   .textob{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 1.3rem;
+                   } 
+                   ul{
+                    gap: 6rem;
+                   }
+                    @extend ul 
+                }
+            }
+    }
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px)  {
+    header{
+        nav{
+            .container-fluid{
+                .texto{
+                    .textob{
+                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     font-size: 1rem;
+                    } 
+                    ul{
+                     gap: 1rem;
+                    }
+                     gap: 1rem; 
+                 }
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px)  {
+    header{
+        nav{
+            .container-fluid{
+                .texto{
+                    .textob{
+                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     font-size: 2rem;
+                    } 
+                    ul{
+                     gap: 2rem;
+                    }
+                     gap: 2rem;
+                 }
+            }
+
+        }
+    }
+}
