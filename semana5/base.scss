@@ -1,36 +1,53 @@
 @import "header";
 @import "Quienes";
+@import "footer";
+@import "contacto";
+@import "productos";
 
-main{
-    section{
-        .ser{
-            text-align: center;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+main {
+    .crt{
+        #mostrarp{
+            .detalles{
+                display: flex;
+                gap: 3%;
+                margin-top: 10%;
+                button{
+                    width: 10%;
+                }
+            }
         }
-        
-        .servicios{
+    }
+    section {
+        .ser {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .servicios {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 10%;
             margin-left: 10%;
         }
-        
-        .descripcion img{
+
+        .descripcion img {
             height: 10rem;
             margin-left: 5%;
         }
     }
 }
 
-@media only screen and (max-width: 500px) and (min-width: 320px)  {
+@media only screen and (max-width: 500px) and (min-width: 320px) {
 
-    main{
-        section{
-            .servicios{
+    main {
+        section {
+          
+            .servicios {
                 display: flex;
                 flex-direction: column;
-                div{
-                    .ims{
+
+                div {
+                    .ims {
                         width: 14rem;
                         height: 9rem;
                     }
@@ -39,11 +56,12 @@ main{
         }
     }
 }
-@media only screen and (max-width: 1000px) and (min-width: 500px)  {
 
-    main{
-        section{
-            .servicios{
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+    main {
+        section {
+            .servicios {
                 display: flex;
                 flex-direction: column;
             }

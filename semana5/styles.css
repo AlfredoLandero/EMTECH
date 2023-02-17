@@ -1,9 +1,11 @@
+header {
+  position: fixed;
+  margin-left: 1.5%;
+}
 header nav {
+  width: 100%;
   background-color: rgb(4, 78, 80);
   border-radius: 1rem;
-}
-header nav .barra {
-  position: sticky;
 }
 header nav .container-fluid .navbar-brand .logo {
   height: 5rem;
@@ -16,20 +18,38 @@ header nav .container-fluid .texto .textob {
 header nav .container-fluid .texto ul, header nav .container-fluid .texto .texto {
   gap: 6rem;
 }
+header nav .container-fluid .texto ul li, header nav .container-fluid .texto .texto li {
+  margin-left: -1%;
+  display: flex;
+}
+header nav .container-fluid .texto ul li p, header nav .container-fluid .texto .texto li p {
+  margin-left: -15%;
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 100%;
+  height: 30%;
+  width: 30%;
+}
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
+  header {
+    position: sticky;
+  }
   header nav .container-fluid .texto {
     gap: 1rem;
   }
   header nav .container-fluid .texto .textob {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
   }
   header nav .container-fluid .texto ul, header nav .container-fluid .texto .texto {
     gap: 1rem;
   }
 }
 @media only screen and (max-width: 1000px) and (min-width: 500px) {
+  header {
+    position: sticky;
+  }
   header nav .container-fluid .texto {
     gap: 2rem;
   }
@@ -73,6 +93,7 @@ main .cont_mv .pr .imision {
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
   main div #titulo {
+    margin-top: -25%;
     font-size: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
     background-color: rgb(18, 155, 160);
@@ -81,6 +102,7 @@ main .cont_mv .pr .imision {
 }
 @media only screen and (max-width: 1000px) and (min-width: 500px) {
   main div #titulo {
+    margin-top: -5%;
     font-size: 40px;
     font-family: Georgia, "Times New Roman", Times, serif;
     background-color: rgb(18, 155, 160);
@@ -114,6 +136,76 @@ main .cont_mv .pr .imision {
     margin-top: 5%;
     margin-left: 5%;
   }
+}
+footer .contenedorredes {
+  position: relative;
+  top: 100%;
+  background-color: rgb(4, 78, 80);
+}
+footer .contenedorredes .facebook {
+  color: blue;
+}
+
+main .formulario {
+  height: 50%;
+  width: 30%;
+  margin-left: 5%;
+  background-color: rgb(204, 200, 200);
+  border-radius: 5%;
+}
+main .formulario h3 {
+  margin-left: 7%;
+}
+main .formulario form {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+main .titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20%;
+  margin-top: 1%;
+  background-color: rgb(175, 225, 238);
+  width: 60%;
+  text-align: center;
+}
+main #productos1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+main #productos1 div img {
+  width: 50%;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+main #productos1 div h2 {
+  width: 40%;
+  font-size: 90%;
+  margin-left: 10%;
+}
+main #productos1 div .precio {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20%;
+}
+main #productos1 div p {
+  margin-left: 5%;
+}
+main #productos1 div button {
+  margin-left: 20%;
+  background-color: rgb(179, 179, 243);
+}
+
+main .crt #mostrarp .detalles {
+  display: flex;
+  gap: 3%;
+  margin-top: 10%;
+}
+main .crt #mostrarp .detalles button {
+  width: 10%;
 }
 main section .ser {
   text-align: center;

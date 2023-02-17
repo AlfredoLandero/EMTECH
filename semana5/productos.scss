@@ -1,0 +1,50 @@
+main {
+    .titulo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 20%;
+        margin-top: 1%;
+        background-color: rgb(175, 225, 238);
+        width: 60%;
+        text-align: center;
+    }
+
+    #productos1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        margin-left: 8%;
+        div {
+            img {
+                width: 50%;
+                margin-left: 8%;
+                margin-top: 2%;
+            }
+
+            h2 {
+                width: 40%;
+                font-size: 90%;
+                margin-left: 10%;
+            }
+
+            .precio {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 20%;
+            }
+
+            p {
+                margin-left: 5%;
+            }
+
+            button {
+                margin-left: 20%;
+                background-color: rgb(179, 179, 243);
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+
+    
+}

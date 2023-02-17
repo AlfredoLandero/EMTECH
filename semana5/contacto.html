@@ -1,55 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <enlace rel="preconectar" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/semana4/styles.css">
+    <link rel="stylesheet" href="/semana5/styles.css">
     <title>contacto</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg barra">
-          <div class="container-fluid">
-            <a class="navbar-brand" href=""><img src="/semana4/imagenes/hestec.png" alt="logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse texto" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item textob">
-                  <a class="nav-link active"  href="/semana4/index.html">Inicio</a>
-                </li>
-                <li class="nav-item textob">
-                  <a class="nav-link active" href="/semana4/Quienes.html">¿Quienes Somos?</a>
-                </li>
-                <li class="nav-item textob">
-                  <a class="nav-link active" href="/semana4/productos.html">Productos</a>
-                </li>
-                <li class="textob">
-                  <a class="nav-link active" href="/semana4/contacto.html">Contacto</a>
-                </li>
-                <li>
-                  <button class="carrito"><iconify-icon  icon="material-symbols:shopping-cart-rounded" width="50" height="50"></iconify-icon></button>
-              </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg barra">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/semana5/index.html"><img src="/semana4/imagenes/hestec.png" alt="logo"
+            class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse texto" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item textob">
+              <a class="nav-link active" href="/semana5/index.html">Inicio</a>
+            </li>
+            <li class="nav-item textob">
+              <a class="nav-link active" href="/semana5/Quienes.html">¿Quienes Somos?</a>
+            </li>
+            <li class="nav-item textob">
+              <a class="nav-link active" href="/semana5/productos.html">Productos</a>
+            </li>
+            <li class="textob">
+              <a class="nav-link active" href="/semana5/contacto.html">Contacto</a>
+            </li>
+            <li class="carrito" id="llenado">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><iconify-icon icon="material-symbols:shopping-cart-rounded" width="50" height="50"></iconify-icon></button>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br><br><br><br><br>
+  <main>
+    <section class="crt">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Carrito de compras</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="mostrarp">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 id="titulo">HESTEC THE TOOL MAKER</h1>
+      </div>
+    </section>
+    <section class="formulario">
+      <h3>Solicita una cotizacion</h3>
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      </form>
+    </section>
+    <br>
+    <div class="mapa">
+      <h3>Visita nuestra sucursal</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.5874011112326!2d-98.20445128602641!3d19.021714250045815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfbf44683c0a1f%3A0x41d69bc0069c022a!2sHESTEC%2C%20The%20Toolmaker!5e0!3m2!1ses-419!2smx!4v1668824752042!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+  <br>
+  <footer>
+    <div class="contenedorredes">
+      <a href="https://www.facebook.com/profile.php?id=100009837138542"><iconify-icon icon="ic:outline-facebook"
+          class="facebook" width="50" height="50"></iconify-icon>></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <script src="./index.js"></script>
 </body>
+
 </html>
